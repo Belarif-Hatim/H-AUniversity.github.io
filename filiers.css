@@ -1,0 +1,138 @@
+
+.title {
+    padding-top: 60px;
+    font-size: 3rem;
+    color: #1a1a5f;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-bottom: 40px; 
+  
+}
+
+
+.title2 {
+    font-size: 2.5rem;
+    color: #1e1ea8;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.subtitle {
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #000000;
+    
+}
+
+
+section {
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #dde3ebe0; 
+   
+    margin: 20px;
+    box-shadow: 2px 4px 6px rgba(74, 74, 74, 0.907); 
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-6px); 
+    box-shadow: 4px 4px 6px #021061; 
+}
+
+.description li{
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*head o lfooter*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.header_list {
+    flex: 1;
+    text-align: right;
+}
+.header_list ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.header_list li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.bouton0 {
+    display: inline-block;
+    background: #003366;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.bouton0:hover {
+    background: #34568B;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header_1 {
+    background: linear-gradient(45deg, #dde5f5, #9dbbe3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    background: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+footer ul li {
+    margin: 0 10px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
